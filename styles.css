@@ -1,0 +1,20 @@
+/* Persist Notes: tela de Ações e Projetos. Usa as variáveis do tema do Obsidian. */
+.pn-view { padding: 8px 12px; }
+.pn-tabs { display: flex; gap: 4px; align-items: center; margin-bottom: 12px; border-bottom: 1px solid var(--background-modifier-border); padding-bottom: 6px; }
+.pn-tab { background: none; box-shadow: none; padding: 4px 10px; color: var(--text-muted); }
+.pn-tab.is-active { color: var(--text-normal); font-weight: var(--font-semibold); border-bottom: 2px solid var(--interactive-accent); border-radius: 0; }
+.pn-refresh { margin-left: auto; }
+.pn-empty { color: var(--text-muted); }
+.pn-group { margin-bottom: 16px; }
+.pn-project { font-weight: var(--font-semibold); margin: 0 0 6px; }
+.pn-meeting { display: flex; gap: 8px; align-items: baseline; margin-top: 8px; }
+.pn-link { cursor: pointer; }
+.pn-date { color: var(--text-faint); font-size: var(--font-ui-smaller); margin-left: 8px; }
+.pn-tasks { list-style: none; padding-left: 0; margin: 4px 0; }
+.pn-task { display: flex; gap: 8px; align-items: flex-start; padding: 2px 0; }
+.pn-task input { margin-top: 3px; flex: none; }
+.pn-task-text { display: flex; flex-direction: column; }
+.pn-meta { color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.pn-project-card { border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); padding: 6px 10px; margin-bottom: 8px; }
+.pn-project-card > summary { cursor: pointer; }
+.pn-synthesis { margin-top: 8px; }

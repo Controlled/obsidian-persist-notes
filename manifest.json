@@ -1,0 +1,10 @@
+{
+  "id": "persist-notes",
+  "name": "Persist Notes",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "See the action items and project syntheses of your Persist Notes meeting notes, and check off to-dos in the source note.",
+  "author": "Persist Notes",
+  "authorUrl": "https://persistnotes.com",
+  "isDesktopOnly": false
+}
